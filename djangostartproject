@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# # create folder and cd into it
+# mkdir $1
+# folder=$1
+# while [[ $folder = "" ]]; do
+#     read -p 'Name of folder cant be blank. Enter name of folder: ' folder
+# done
+
+# if [[ -z "$1" ]]; then
+#     mkdir $folder
+#     cd $folder
+# else
+#     cd $folder
+# fi
+
+# pwd
+
+# # create vitual env and activate it
+# printf '\n'
+# python3 -m venv venv
+# source venv/bin/activate
+
+# # update pip
+# printf '\n'
+# python3 -m pip install --upgrade pip
+
+# # install django
+# printf '\nInstalling django\n'
+# pip install django
+
+# # django startproject base
+# printf '\n'
+# django-admin startproject base .
+
+# # django startapp $name_of_app
+# printf '\n\n'
+# read -p 'Enter name of app: ' app
+# while [[ $app = "" ]]; do
+#    read -p 'App_name cannot be empty, Enter name of app: ' app
+# done
+# python3 manage.py startapp $app
+
+# # output 
+# ls
+
+ls
+cd mytestapp
+ls
+touch urls
+
