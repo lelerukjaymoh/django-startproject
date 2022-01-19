@@ -20,8 +20,8 @@ printf '\n# Location of project: '$(pwd)'\n'
 
 # create vitual env and activate it
 printf '\n# Creating and activating virtual enviroment (venv)\n'
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv-$1
+source venv-$1/bin/activate
 
 # update pip
 printf '\n# Upgrading pip to latest version \n'
