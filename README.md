@@ -27,6 +27,12 @@ Add this line as the end of your .bashrc file **export PATH=$PATH:/home/USER/bin
 
 Create a .bash_aliases file if you dont have one and add this line **alias djangostart='. djangostartproject'**. 
 This is done so that the script can execute a cd command and actually cd into the folder. Not including the **.** and space in the djangostartproject alias will lead to the script not cd*ing* into a directory.
+
+So as to prevent logging out and in again so as to load the changes done to the *.bashrc* run this command from you home directory
+```
+~$ source ~/.bashrc
+``` 
+
 Once that is done you are ready to go.
 
 ### Usage
