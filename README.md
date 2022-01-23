@@ -36,7 +36,7 @@ So as to prevent logging out and in again so as to load the changes done to the 
 Once that is done you are ready to go.
 
 ### Usage
-To use the scipt, cd to anywhere and run **djangostart** followed by the name you would like to give to your project folder.
+To use the script, cd to anywhere and run **djangostart** followed by the name you would like to give to your project folder.
 
 ```
 ~$ djangostart djangoproject
