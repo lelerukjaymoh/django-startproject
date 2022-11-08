@@ -202,6 +202,12 @@ _EOF_
 printf '\n created '$app'/views.py\n'
 
 
+
+
+: '
+static files would not be needed in drf projects, but it is great to have it created anyway
+'
+
 # templates/home.html
 cd $app
 mkdir templates
