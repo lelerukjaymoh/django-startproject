@@ -10,7 +10,6 @@ A small shell script to start off you django app development. It rids you the hu
 * Writing to settings.py, urls.py, views.py, tempalates
 * Making migrations and migrating them
 
-
 ## Getting Started
 
 To get started just clone the repo into your machine and get started. The script might not work out of the box, some tweaks and a little bit of hacking :wink: is required as explained in Prerequisites
@@ -48,17 +47,17 @@ To use the script, cd to anywhere and run **djangostart** followed by the name y
 
 ##### $StartProject [Your Project Name]
 
-![Example of django-startproject](https://github.com/coderjaymoh/django-startproject/blob/master/Peek%202019-10-24%2004-58.gif)
-
+![Example of django-startproject](https://github.com/iNightjar/Django-ProjectCreation/blob/master/startdjangoproject.gif)
 
 ## Create Your Project Super User with One Command
 
 **createsuperuser** scirpt.. It automates:
+
 * Creation of your django super user
 
 ##### Create Super User
 
-![Example of django-startproject](https://github.com/iNightjar/Django-ProjectCreation/blob/master/djangosuperuser.mp4)
+![Example of django-startproject](https://github.com/iNightjar/Django-ProjectCreation/blob/master/djangosuperuser.gif)
 
 ## Contributing
 
