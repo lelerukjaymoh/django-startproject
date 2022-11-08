@@ -1,4 +1,4 @@
-# Django startproject
+# Start Your Django Project Right Away
 
 A small shell script to start off you django app development. It rids you the hustle of repeating the same processes everytime you start a django project and gets you django application up and running within two strikes of a button. It automates:
 
@@ -46,7 +46,7 @@ To use the script, cd to anywhere and run **djangostart** followed by the name y
 ~$ djangostart djangoproject
 ```
 
-##### Start Your Django Project Right Away
+##### $StartProject [Your Project Name]
 
 ![Example of django-startproject](https://github.com/coderjaymoh/django-startproject/blob/master/Peek%202019-10-24%2004-58.gif)
 
