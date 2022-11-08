@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+: '
+Run The Script Inside Your Django Base Project Where You Got The manage.py File.. 
+'
+
+
+unset Username
+unset Email
+unset UserPassword
+
+# Django Super User Creation Script
+
+echo -e "\e[0;35m############################# \e[0m"
+echo -e "\e[0;35m#     Create Super User     # \e[0m"
+echo -e "\e[0;35m############################# \e[0m"
+    
+
+# username as a command line arguement
+
+Username=$1
+
+while [[ $Username = "" ]]; do
+    read -p 'Username can not be blank. Enter Username: ' Username
+
+done
+
+read -p "Email: " Email
+read -sp 'Password: ' UserPassword
+
+echo -e
+
+# using create_superuser method
+echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser('$Username', '$Email', '$UserPassword')" | python manage.py shell
+
+echo -e
